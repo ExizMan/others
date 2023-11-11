@@ -1,0 +1,14 @@
+{% extends "learning_logs/base.html" %}
+
+
+
+{% block content %}
+
+  <p>
+    <a href="{% url 'learning_logs:index' %}">Learning Log</a>
+    <a href="{% url 'learning_logs:topics' %}">Topics</a>
+    
+  </p>
+  
+  <p>ll helpd u keep track of your learning, for any topic you are</p>
+{% endblock content %}
